@@ -5,7 +5,8 @@
     "api",
     "common",
     "data",
-    "web"
+    "web",
+    "database"
   ],
   "scripts": {
     "dev": "concurrently \"cd api && yarn build:watch\" \"cd api && yarn dev\" \"cd common && yarn build:watch\" \"cd data && yarn build:watch\" \"cd data && yarn dev\" \"cd web && yarn dev\"",
